@@ -1,5 +1,5 @@
 {
-  "name": "my-website",
+  "name": "open-goal-docusaurus-charts",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,9 +7,11 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "mydeploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
+    "deploy": "git add . && git commit -m Build && git push",
+    "deploy:vercel": "npm run deploy && vercel --prod",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
