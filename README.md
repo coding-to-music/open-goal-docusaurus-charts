@@ -33,6 +33,7 @@ git branch -M main
 git remote add origin git@github.com:coding-to-music/open-goal-docusaurus-charts.git
 git push -u origin main
 npm run deploy:vercel
+
 ```
 
 # OpenGOAL Documentation
