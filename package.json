@@ -30,7 +30,7 @@
     "recharts": "^2.1.13"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.1"
+    "@docusaurus/module-type-aliases": "2.2.0"
   },
   "browserslist": {
     "production": [
